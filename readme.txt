@@ -1,0 +1,19 @@
+function FindProxyForURL(url, host)
+{
+var socks_yes = "SOCKS 127.0.0.1:8888; DIRECT";
+if( /(^|\.)utrace\.de$/.test(host) ) {return socks_yes;}
+if( /^ipleak\.net$/.test(host) ) {return socks_yes;}
+if( /^epidemz\.(co|com|net)$/.test(host) ) {return socks_yes;}
+if( /^riperam\.org$/.test(host) ) {return socks_yes;}
+if( /^kinozal\.tv$/.test(host) ) {return socks_yes;}
+if( /^nnm-club\.me$/.test(host) ) {return socks_yes;}
+if( /^ru-hd\.org$/.test(host) ) {return socks_yes;}
+if( /^rutor\.info$/.test(host) ) {return socks_yes;}
+if( /(^|\.)pornolab\.net$/.test(host) ) {return socks_yes;}
+if( /(^|\.)rutracker\.(org|cr|nl|net|wiki|news)$/.test(host) ) {return socks_yes;}
+if( /(^|\.)bit\.do$/.test(host) ) {return socks_yes;}
+if( /(^|\.)nerdvittles\.com$/.test(host) ) {return socks_yes;}
+if( /(^|\.)anonymouse\.org$/.test(host) ) {return socks_yes;}
+if( /(^|\.)bit\.do$/.test(host) ) {return socks_yes;}
+return "DIRECT";
+}
