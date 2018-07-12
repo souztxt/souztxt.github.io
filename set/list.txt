@@ -9,6 +9,7 @@ if( /^kinozal\.tv$/.test(host) ) {return socks_yes;}
 if( /^nnm-club\.me$/.test(host) ) {return socks_yes;}
 if( /^ru-hd\.org$/.test(host) ) {return socks_yes;}
 if( /^rutor\.info$/.test(host) ) {return socks_yes;}
+if( /^psb4ukr\.org$/.test(host) ) {return socks_yes;}
 if( /(^|\.)pornolab\.net$/.test(host) ) {return socks_yes;}
 if( /(^|\.)rutracker\.(org|cr|nl|net|wiki|news)$/.test(host) ) {return socks_yes;}
 if( /(^|\.)nerdvittles\.com$/.test(host) ) {return socks_yes;}
