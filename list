@@ -12,7 +12,7 @@ if( /^rutor\.info$/.test(host) ) {return socks_yes;}
 if( /^psb4ukr\.org$/.test(host) ) {return socks_yes;}
 if( /thepiratebay\.org$/.test(host) ) {return socks_yes;}
 if( /(^|\.)pornolab\.net$/.test(host) ) {return socks_yes;}
-if( /(^|\.)rutracker\.(org|cr|nl|net|wiki|news)$/.test(host) ) {return socks_yes;}
+if( /(^|\.)rutracker\.(org|cr|nl|net)$/.test(host) ) {return socks_yes;}
 if( /(^|\.)nerdvittles\.com$/.test(host) ) {return socks_yes;}
 if( /(^|\.)anonymouse\.org$/.test(host) ) {return socks_yes;}
 if( /(^|\.)bit\.do$/.test(host) ) {return socks_yes;}
