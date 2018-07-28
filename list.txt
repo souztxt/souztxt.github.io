@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host)
 {
 var socks1 = "SOCKS 127.0.0.1:8888; DIRECT";
-var proxy1 = "PROXY 5.189.162.175:3128; DIRECT";
+var proxy1 = "PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
 if( /\.utrace\.de$/.test(host) ) {return socks1;}
 if( /^ipleak\.net$/.test(host) ) {return proxy1;}
 if( /(^|\.)spys\.one$/.test(host) ) {return proxy1;}
