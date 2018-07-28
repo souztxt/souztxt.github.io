@@ -4,7 +4,7 @@ var s1 = "SOCKS 127.0.0.1:8888; DIRECT";
 var p2 = "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
 if( /\.utrace\.de$/.test(host) ) {return s1;}
 if( /^ipleak\.net$/.test(host) ) {return s1;}
-if( /(^|\.)spys\.one$/.test(host) ) {return s1;}
+if( /^ip\.spys\.one$/.test(host) ) {return s1;}
 if( /^epidemz\.(co|com|net)$/.test(host) ) {return p2;}
 if( /^riperam\.org$/.test(host) ) {return s1;}
 if( /^kinozal\.tv$/.test(host) ) {return s1;}
