@@ -11,7 +11,7 @@ if( /^kinozal\.tv$/.test(host) ) {return s1;}
 if( /^nnm-club\.me$/.test(host) ) {return s1;}
 if( /^rutor\.info$/.test(host) ) {return p2;}
 if( /^psb4ukr\.org$/.test(host) ) {return p2;}
-if( /thepiratebay\.org$/.test(host) ) {return p2;}
+if( /^thepiratebay\.org$/.test(host) ) {return p2;}
 if( /(^|\.)pornolab\.net$/.test(host) ) {return s1;}
 if( /(^|\.)rutracker\.(org|cr|nl|net)$/.test(host) ) {return s1;}
 if( /(^|\.)nerdvittles\.com$/.test(host) ) {return s1;}
