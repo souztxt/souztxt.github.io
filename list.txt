@@ -3,16 +3,15 @@ function FindProxyForURL(url, host)
 var socks1 = "SOCKS 127.0.0.1:8888; DIRECT";
 var proxy1 = "PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
 if( /\.utrace\.de$/.test(host) ) {return socks1;}
-if( /^ipleak\.net$/.test(host) ) {return proxy1;}
-if( /(^|\.)spys\.one$/.test(host) ) {return proxy1;}
+if( /^ipleak\.net$/.test(host) ) {return socks1;}
+if( /(^|\.)spys\.one$/.test(host) ) {return socks1;}
 if( /^epidemz\.(co|com|net)$/.test(host) ) {return proxy1;}
 if( /^riperam\.org$/.test(host) ) {return socks1;}
 if( /^kinozal\.tv$/.test(host) ) {return socks1;}
 if( /^nnm-club\.me$/.test(host) ) {return socks1;}
-if( /^ru-hd\.org$/.test(host) ) {return socks1;}
-if( /^rutor\.info$/.test(host) ) {return socks1;}
-if( /^psb4ukr\.org$/.test(host) ) {return socks1;}
-if( /thepiratebay\.org$/.test(host) ) {return socks1;}
+if( /^rutor\.info$/.test(host) ) {return proxy1;}
+if( /^psb4ukr\.org$/.test(host) ) {return proxy1;}
+if( /thepiratebay\.org$/.test(host) ) {return proxy1;}
 if( /(^|\.)pornolab\.net$/.test(host) ) {return socks1;}
 if( /(^|\.)rutracker\.(org|cr|nl|net)$/.test(host) ) {return socks1;}
 if( /(^|\.)nerdvittles\.com$/.test(host) ) {return socks1;}
