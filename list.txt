@@ -1,23 +1,24 @@
 function FindProxyForURL(url, host)
 {
-var socks_yes = "SOCKS 127.0.0.1:8888; DIRECT";
-var proxy_yes = "PROXY 5.189.162.175:3128; DIRECT";
-if( /\.utrace\.de$/.test(host) ) {return socks_yes;}
-if( /^ipleak\.net$/.test(host) ) {return proxy_yes;}
-if( /^epidemz\.(co|com|net)$/.test(host) ) {return proxy_yes;}
-if( /^riperam\.org$/.test(host) ) {return socks_yes;}
-if( /^kinozal\.tv$/.test(host) ) {return socks_yes;}
-if( /^nnm-club\.me$/.test(host) ) {return socks_yes;}
-if( /^ru-hd\.org$/.test(host) ) {return socks_yes;}
-if( /^rutor\.info$/.test(host) ) {return socks_yes;}
-if( /^psb4ukr\.org$/.test(host) ) {return socks_yes;}
-if( /thepiratebay\.org$/.test(host) ) {return socks_yes;}
-if( /(^|\.)pornolab\.net$/.test(host) ) {return socks_yes;}
-if( /(^|\.)rutracker\.(org|cr|nl|net)$/.test(host) ) {return socks_yes;}
-if( /(^|\.)nerdvittles\.com$/.test(host) ) {return socks_yes;}
-if( /(^|\.)anonymouse\.org$/.test(host) ) {return socks_yes;}
-if( /(^|\.)bit\.do$/.test(host) ) {return socks_yes;}
-if( /(^|\.)t\.me$/.test(host) ) {return socks_yes;}
-if( /(^|\.)telegram\.(org|me)$/.test(host) ) {return socks_yes;}
+var socks1 = "SOCKS 127.0.0.1:8888; DIRECT";
+var proxy1 = "PROXY 5.189.162.175:3128; DIRECT";
+if( /\.utrace\.de$/.test(host) ) {return socks1;}
+if( /^ipleak\.net$/.test(host) ) {return proxy1;}
+if( /(^|\.)spys\.one$/.test(host) ) {return proxy1;}
+if( /^epidemz\.(co|com|net)$/.test(host) ) {return proxy1;}
+if( /^riperam\.org$/.test(host) ) {return socks1;}
+if( /^kinozal\.tv$/.test(host) ) {return socks1;}
+if( /^nnm-club\.me$/.test(host) ) {return socks1;}
+if( /^ru-hd\.org$/.test(host) ) {return socks1;}
+if( /^rutor\.info$/.test(host) ) {return socks1;}
+if( /^psb4ukr\.org$/.test(host) ) {return socks1;}
+if( /thepiratebay\.org$/.test(host) ) {return socks1;}
+if( /(^|\.)pornolab\.net$/.test(host) ) {return socks1;}
+if( /(^|\.)rutracker\.(org|cr|nl|net)$/.test(host) ) {return socks1;}
+if( /(^|\.)nerdvittles\.com$/.test(host) ) {return socks1;}
+if( /(^|\.)anonymouse\.org$/.test(host) ) {return socks1;}
+if( /(^|\.)bit\.do$/.test(host) ) {return socks1;}
+if( /(^|\.)t\.me$/.test(host) ) {return socks1;}
+if( /(^|\.)telegram\.(org|me)$/.test(host) ) {return socks1;}
 return "DIRECT";
 }
