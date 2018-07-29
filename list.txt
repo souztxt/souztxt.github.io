@@ -16,8 +16,7 @@ if (/^epidemz\.(co|com|net)$/.test(host) ||
 /(^|\.)riperam\.org$/.test(host) ||
 /(^|\.)riper\.am$/.test(host) ||
 /(^|\.)kinozal\.tv$/.test(host) ||
-/(^|\.)nnm-club\.(me|ws|lib)$/.test(host) ||
-/(^|\.)nnmclub\.(to|tv)$/.test(host) ||
+/(^|\.)nnm-?club\.(me|ws|lib|to|tv)$/.test(host) ||
 /(^|\.)rutor\.info$/.test(host) ||
 /(^|\.)thepiratebay\.org$/.test(host) ||
 /(^|\.)psb4ukr\.org$/.test(host) ||
