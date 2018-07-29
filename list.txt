@@ -13,17 +13,16 @@ if (/\.utrace\.de$/.test(host) ||
 ) return "SOCKS 127.0.0.1:8888; DIRECT";
 // 
 if (/^epidemz\.(co|com|net)$/.test(host) ||
-/(^|\.)riperam\.org$/.test(host) ||
-/(^|\.)riper\.am$/.test(host) ||
+/(^|\.)riper(am)?\.(am|org)$/.test(host) ||
 /(^|\.)kinozal\.tv$/.test(host) ||
-/(^|\.)nnm-?club\.(me|ws|lib|to|tv)$/.test(host) ||
+/(^|\.)nnm-?club\.(me|ws|to|tv)$/.test(host) ||
 /(^|\.)rutor\.info$/.test(host) ||
 /(^|\.)thepiratebay\.org$/.test(host) ||
 /(^|\.)psb4ukr\.org$/.test(host) ||
 /(^|\.)myrotvorets\.center$/.test(host) ||
 /(^|\.)kilotorrent\.me$/.test(host) ||
 /(^|\.)anonymouse\.org$/.test(host)
-) return "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
+) return "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; SOCKS 127.0.0.1:8888; DIRECT";
 // 
 return "DIRECT";
 }
