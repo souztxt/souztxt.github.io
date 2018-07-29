@@ -12,7 +12,7 @@ if (/\.utrace\.de$/.test(host) ||
 /(^|\.)t\.me$/.test(host)
 ) return "SOCKS 127.0.0.1:8888; DIRECT";
 // 
-if (/(^|\.)epidemz\.(co|com|net)$/.test(host) ||
+if (/^epidemz\.(co|com|net)$/.test(host) ||
 /(^|\.)riperam\.org$/.test(host) ||
 /(^|\.)riper\.am$/.test(host) ||
 /(^|\.)kinozal\.tv$/.test(host) ||
@@ -28,5 +28,6 @@ if (/(^|\.)epidemz\.(co|com|net)$/.test(host) ||
 // 
 return "DIRECT";
 }
+// chrome: --proxy-pac-url="file:///c:/proxy.pac"
 // 
-// 
+
