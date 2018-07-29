@@ -1,25 +1,32 @@
-function FindProxyForURL(url, host)
-{
-var s1 = "SOCKS 127.0.0.1:8888; DIRECT";
-var p2 = "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
-if( /\.utrace\.de$/.test(host) ) {return s1;}
-if( /^ipleak\.net$/.test(host) ) {return s1;}
-if( /^ip\.spys\.one$/.test(host) ) {return s1;}
-if( /^epidemz\.(co|com|net)$/.test(host) ) {return p2;}
-if( /^riperam\.org$/.test(host) ) {return s1;}
-if( /^kinozal\.tv$/.test(host) ) {return s1;}
-if( /^nnm-club\.me$/.test(host) ) {return s1;}
-if( /^rutor\.info$/.test(host) ) {return p2;}
-if( /^thepiratebay\.org$/.test(host) ) {return p2;}
-if( /^psb4ukr\.org$/.test(host) ) {return p2;}
-if( /(^|\.)myrotvorets\.center$/.test(host) ) {return p2;}
-if( /(^|\.)pornolab\.net$/.test(host) ) {return s1;}
-if( /(^|\.)rutracker\.(org|cr|nl|net)$/.test(host) ) {return s1;}
-if( /(^|\.)nerdvittles\.com$/.test(host) ) {return s1;}
-if( /(^|\.)anonymouse\.org$/.test(host) ) {return s1;}
-if( /(^|\.)bit\.do$/.test(host) ) {return s1;}
-if( /(^|\.)t\.me$/.test(host) ) {return s1;}
-if( /(^|\.)telegram\.(org|me)$/.test(host) ) {return s1;}
+function FindProxyForURL(url, host) {
+// var s1 = "SOCKS 127.0.0.1:8888; DIRECT";
+// var p2 = "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
+// 
+if (/\.utrace\.de$/.test(host) ||
+/^ipleak\.net$/.test(host) ||
+/^ip\.spys\.one$/.test(host) ||
+/(^|\.)pornolab\.net$/.test(host) ||
+/(^|\.)rutracker\.(org|cr|nl|net)$/.test(host) ||
+/(^|\.)nerdvittles\.com$/.test(host) ||
+/(^|\.)telegram\.(org|me)$/.test(host) ||
+/(^|\.)t\.me$/.test(host)
+) return "SOCKS 127.0.0.1:8888; DIRECT";
+// 
+if (/(^|\.)epidemz\.(co|com|net)$/.test(host) ||
+/(^|\.)riperam\.org$/.test(host) ||
+/(^|\.)riper\.am$/.test(host) ||
+/(^|\.)kinozal\.tv$/.test(host) ||
+/(^|\.)nnm-club\.(me|ws|lib)$/.test(host) ||
+/(^|\.)nnmclub\.(to|tv)$/.test(host) ||
+/(^|\.)rutor\.info$/.test(host) ||
+/(^|\.)thepiratebay\.org$/.test(host) ||
+/(^|\.)psb4ukr\.org$/.test(host) ||
+/(^|\.)myrotvorets\.center$/.test(host) ||
+/(^|\.)kilotorrent\.me$/.test(host) ||
+/(^|\.)anonymouse\.org$/.test(host)
+) return "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
+// 
 return "DIRECT";
 }
-
+// 
+// 
