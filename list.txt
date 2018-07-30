@@ -2,17 +2,16 @@ function FindProxyForURL(url, host) {
 // var s1 = "SOCKS 127.0.0.1:8888; DIRECT";
 // var p2 = "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
 // 
-if (/\.utrace\.de$/.test(host) ||
-/^ipleak\.net$/.test(host) ||
+if ( /^ipleak\.net$/.test(host) ||
 /^ip\.spys\.one$/.test(host) ||
+/(^|\.)utrace\.de$/.test(host) ||
 /(^|\.)pornolab\.net$/.test(host) ||
 /(^|\.)rutracker\.(org|cr|nl|net)$/.test(host) ||
-/(^|\.)nerdvittles\.com$/.test(host) ||
-/(^|\.)telegram\.(org|me)$/.test(host) ||
-/(^|\.)t\.me$/.test(host)
+/(^|\.)t(elegram)?\.(org|me)$/.test(host) ||
+/(^|\.)nerdvittles\.com$/.test(host)
 ) return "SOCKS 127.0.0.1:8888; DIRECT";
 // 
-if (/^epidemz\.(co|com|net)$/.test(host) ||
+if ( /^epidemz\.(co|com|net)$/.test(host) ||
 /(^|\.)riper(am)?\.(am|org)$/.test(host) ||
 /(^|\.)kinozal\.tv$/.test(host) ||
 /(^|\.)nnm-?club\.(me|ws|to|tv)$/.test(host) ||
