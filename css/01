@@ -1,1 +1,67 @@
+function FindProxyForURL(url, host) {
+// 
+if ( /^ipleak\.net$/.test(host) ||
+/(^|\.)utrace\.de$/.test(host) ||
+// /(^|\.)arhivach\.\w{2,6}$/.test(host) ||
+/(^|\.)t(elegram)?\.(org|me)$/.test(host) ||
+/(^|\.)telesco\.pe$/.test(host) ||
+/(^|\.)reallifecam\.com$/.test(host) ||
+/(^|\.)voyeurhouse\.com$/.test(host) ||
+/(^|\.)voyeur-house\.tv$/.test(host) ||
+/(^|\.)urlvoid\.com$/.test(host)
+) return "SOCKS 127.0.0.1:8888; DIRECT";
+// 
+if ( /^ipleak\.net$/.test(host) ||
+/(^|\.)hegre\.com$/.test(host) ||
+/(^|\.)pornolab\.net$/.test(host) ||
+/(^|\.)rutracker\.(org|cr|nl|net)$/.test(host) ||
+// /(^|\.)beeline\.ru$/.test(host) ||
+/(^|\.)nerdvittles\.com$/.test(host)
+) return "SOCKS 127.0.0.1:8888";
+// 
+if ( /(^|^www\.)epidemz\.(com?|net)$/.test(host) ||
+/(^|\.)riper(am)?\.(am|org)$/.test(host) ||
+/(^|\.)kubyshka\.org$/.test(host) ||
+/(^|\.)kinosvit\.tv$/.test(host) ||
+/(^|\.)kinozal\.(tv|me)$/.test(host) ||
+/(^|\.)nnm-?club\.(tv|me|ws|to)$/.test(host) ||
+/(^|\.)rutor\.(info|org)$/.test(host) ||
+/(^|\.)nntt\.org$/.test(host) ||
+/(^|\.)rgho\.st$/.test(host) ||
+/(^|\.)telego100\.com$/.test(host) ||
+/(^|\.)your?porn\.(com|sexy)$/.test(host) ||
+/(^|\.)studentsexparties\.com$/.test(host) ||
+/(^|\.)privat-zapisi\.com$/.test(host) ||
+/(^|\.)chaturbate\.com$/.test(host) ||
+/(^|\.)bongacams\.com$/.test(host) ||
+/(^|\.)xhamster\.com$/.test(host) ||
+/(^|\.)tiny4k\.com$/.test(host) ||
+/(^|\.)hellporno\.com$/.test(host) ||
+/(^|\.)motherless\.com$/.test(host) ||
+/(^|\.)thepiratebay\.org$/.test(host) ||
+/(^|\.)myrotvorets\.center$/.test(host) ||
+/(^|\.)psb4ukr\.org$/.test(host) ||
+/(^|\.)kilotorrent\.me$/.test(host) ||
+/(^|\.)booktracker\.org$/.test(host) ||
+/(^|\.)flibusta\.(is|net|site)$/.test(host) ||
+/(^|\.)lib\.rus\.ec$/.test(host) ||
+/(^|\.)zello\.com$/.test(host) ||
+/(^|\.)hideip\.me$/.test(host) ||
+/(^|\.)arhivach\.ng$/.test(host) ||
+/(^|\.)phonenumber\.to$/.test(host) ||
+/(^|\.)anonymouse\.org$/.test(host)
+) return "HTTPS proxy-ssl.antizapret.prostovpn.org:3143; PROXY proxy-nossl.antizapret.prostovpn.org:29976; DIRECT";
+// 
+return "DIRECT";
+}
+// /Параметры/Сеть_и_Интернет/Прокси_сервер/Адрес_сценария   file://C:/Users/Admin/OneDrive/Documents/Setting/PAC/list.txt   http://10.0.0.10/list.txt   
+// "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --proxy-pac-url=file://D:/proxy.pac   
+// \\10.0.0.11\Systems\proxy.pac   \\10.0.0.11\Users\Admin\OneDrive\Documents\Setting\PAC\list.txt
+// var s1 = "SOCKS 127.0.0.1:8888; DIRECT"; var p2 = "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
+// return "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
+// return "HTTPS proxy-ssl.antizapret.prostovpn.org:3143; PROXY proxy-nossl.antizapret.prostovpn.org:29976; DIRECT";
+// return "HTTPS proxy-ssl.antizapret.prostovpn.org:3143; PROXY CCAHIHA.antizapret.prostovpn.org:3128; DIRECT";
+// /(^|\.)telego\d{1,3}\.\w{2,6}$/.test(host) ||   /(^|\.)urlvoid\.com$/.test(host) ||   /(^|\.)kinogo[^.]*\.\w{2,6}$/.test(host) ||
+// 
+// 
 
