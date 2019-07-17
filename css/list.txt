@@ -6,8 +6,7 @@ if ( /^ipleak\.net$/.test(host) ||
 /(^|\.)t(elegram)?\.(org|me)$/.test(host) ||
 /(^|\.)telesco\.pe$/.test(host) ||
 /(^|\.)reallifecam\.com$/.test(host) ||
-/(^|\.)voyeurhouse\.com$/.test(host) ||
-/(^|\.)voyeur-house\.tv$/.test(host) ||
+/(^|\.)voyeur-?house\.(tv|com)$/.test(host) ||
 /(^|\.)urlvoid\.com$/.test(host)
 ) return "SOCKS 127.0.0.1:8888; DIRECT";
 // 
@@ -54,7 +53,7 @@ if ( /(^|^www\.)epidemz\.(com?|net)$/.test(host) ||
 // 
 return "DIRECT";
 }
-// /Параметры/Сеть_и_Интернет/Прокси_сервер/Адрес_сценария   file://C:/Users/Admin/OneDrive/Documents/Setting/PAC/list.txt   http://10.0.0.10/list.txt   
+// /Параметры/Сеть_и_Интернет/Прокси_сервер/Адрес_сценария   file://C:/Users/Admin/OneDrive/Documents/Setting/PAC/list.txt   http://10.0.0.10/list.txt
 // "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --proxy-pac-url=file://D:/proxy.pac   https://souz.hopto.org/css/list.txt
 // \\10.0.0.11\Systems\proxy.pac   \\10.0.0.11\Users\Admin\OneDrive\Documents\Setting\PAC\list.txt
 // var s1 = "SOCKS 127.0.0.1:8888; DIRECT"; var p2 = "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
@@ -64,4 +63,3 @@ return "DIRECT";
 // /(^|\.)telego\d{1,3}\.\w{2,6}$/.test(host) ||   /(^|\.)urlvoid\.com$/.test(host) ||   /(^|\.)kinogo[^.]*\.\w{2,6}$/.test(host) ||
 // 
 // 
-
