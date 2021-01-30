@@ -144,22 +144,6 @@ https://play.megafon.tv/out/u/v1-video-6348307.mpd
 https://play.megafon.tv/out/u/v1-video-6348323.mpd
 
 
-#EXTINF:-1 group-title="VIDEO" tvg-logo="TVXXI" tvg-name="TV XXI" ,TV XXI
-https://zabava-htlive.cdn.ngenix.net/hls/CH_TVXXI/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="VIDEO" tvg-logo="TV1000" tvg-name="TV1000" ,TV1000
-https://zabava-htlive.cdn.ngenix.net/hls/CH_TV1000HD/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="VIDEO" tvg-logo="TV1000 Action" tvg-name="TV1000 Action" ,TV1000 Action
-https://zabava-htlive.cdn.ngenix.net/hls/CH_TV1000ACTIONHD/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="VIDEO" tvg-logo="Иллюзион+" tvg-name="Иллюзион +" ,Иллюзион +
-https://zabava-htlive.cdn.ngenix.net/hls/CH_ULLUSIONPLUS/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="VIDEO" tvg-logo="Русский Иллюзион" tvg-name="Русский Иллюзион" ,Русский Иллюзион
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANILLUSION/variant.m3u8?version=2
-
-
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="https://user-images.githubusercontent.com/41078724/42672195-13edd05a-866d-11e8-8594-b483d5b5d586.png" tvg-name="Волга" ,Волга ТВ Н.Новгород
 http://rt-vlg-nn-htlive-lb.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_VOLGA/variant.m3u8?version=2
 
