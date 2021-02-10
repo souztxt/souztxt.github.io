@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://www.teleguide.info/download/new3/xmltv.xml.gz,https://iptvx.one/EPG_LITE,http://ottg.tv/epg.xml.gz" catchup="append" catchup-days="3" catchup-source="&offset=-${offset}&utcstart=${timestamp}" catchup-record-source="&utcstart=${start}&utcend=${end}"
+#EXTM3U url-tvg="http://www.teleguide.info/download/new3/xmltv.xml.gz,https://iptvx.one/EPG_LITE,http://ottg.tv/epg.xml.gz"
 
 #EXTINF:-1 group-title="TELE" tvg-logo="Первый канал" tvg-name="Первый канал" ,Первый канал
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_1TV/variant.m3u8?version=2
@@ -48,7 +48,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8?version=2
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8?version=2
 
 
-#EXTINF:-1 group-title="VIDEO" tvg-logo="https://user-images.githubusercontent.com/41078724/42895250-fa75d47a-8ac1-11e8-9b07-5af701c15d2c.png" tvg-name="Супер" ,Супер
+#EXTINF:-1 group-title="VIDEO" tvg-logo="https://user-images.githubusercontent.com/41078724/42895250-fa75d47a-8ac1-11e8-9b07-5af701c15d2c.png" tvg-name="Суббота" ,Суббота
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8?version=2
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="ТВ3" tvg-name="ТВ-3" ,ТВ-3
