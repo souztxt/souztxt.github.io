@@ -81,7 +81,7 @@ https://strm.yandex.ru/kal/sovsec_supres/sovsec_supres0_54_360p.json/index-v1-a1
 
 
 #EXTINF:-1 group-title="TELE" tvg-logo="Первый канал" tvg-name="Первый канал" ,Первый канал HD
-https://zabava-htlive.cdn.ngenix.net/hls/CH_1TV/variant.m3u8?version=2
+http://176.114.16.54/1HD/mpegts
 
 #EXTINF:-1 group-title="TELE" tvg-logo="Россия 1" tvg-name="Россия 1" ,Россия 1 HD
 https://a1566399364-s26881.cdn.ngenix.net/live/smil:rhd.smil/chunklist_b1800000.m3u8
@@ -176,12 +176,6 @@ https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8?version=2
 
 
-#EXTINF:-1 group-title="VIDEO" tvg-logo="https://iptvx.one/icn/kino-ultra-hd.png" tvg-name="Кино UHD" ,Кино UHD
-https://zabava-htlive.cdn.ngenix.net/hls/CH_KINOUHD/bw10000000/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="VIDEO" tvg-logo="https://iptvx.one/icn/serial-ultrahd.png" tvg-name="Сериал UHD" ,Сериал UHD
-https://zabava-htlive.cdn.ngenix.net/hls/CH_SERIALUHD/bw10000000/variant.m3u8?version=2
-
 #EXTINF:-1 group-title="VIDEO" tvg-logo="https://iptvx.one/icn/ultra-hd-cinema.png" tvg-name="Ultra HD Cinema" ,Ultra HD Cinema
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw10000000/variant.m3u8?version=2
 
@@ -190,3 +184,9 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw10000000/v
 
 #EXTINF:-1 group-title="DOCUMENT" tvg-logo="Eurosport" tvg-name="Eurosport 4K" ,Eurosport 4K
 https://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw10000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="DOCUMENT" tvg-logo="https://iptvx.one/icn/love-nature-4k.png" tvg-name="Love Nature 4K" ,Love Nature 4K
+https://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw10000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="DOCUMENT" tvg-logo="https://iptvx.one/icn/nasha-sibir.png" tvg-name="Наша Сибирь 4K" ,Наша Сибирь 4K
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw10000000/variant.m3u8?version=2
