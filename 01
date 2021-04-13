@@ -26,7 +26,7 @@ https://a1566399364-s26881.cdn.ngenix.net/live/smil:rtrp.smil/chunklist_b1600000
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=2
 
 #EXTINF:-1 group-title="TELE" tvg-logo="Мир 24" tvg-name="Мир 24" ,Мир 24
-https://strm.yandex.ru/kal/mir24/mir240_169_360p.json/index-v1-a1.m3u8
+https://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="Мир" tvg-name="Мир" ,Мир
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8?version=2
@@ -97,10 +97,10 @@ http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 
 
 #EXTINF:-1 group-title="TELE" tvg-logo="Euronews" tvg-name="Euronews" ,Euronews
-https://strm.yandex.ru/kal/euronews_supres/euronews_supres0_169_360p.json/index-v1-a1.m3u8
+https://strm.yandex.ru/kal/euronews_supres/euronews_supres0.m3u8
 
 #EXTINF:-1 group-title="TELE" tvg-logo="РБК" tvg-name="РБК" ,РБК
-https://strm.yandex.ru/kal/rbc_supres/rbc_supres0_169_360p.json/index-v1-a1.m3u8
+https://strm.yandex.ru/kal/rbc_supres/rbc_supres0.m3u8
 
 #EXTINF:-1 group-title="TELE" tvg-logo="RTVi" tvg-name="RTVi" ,RTVi
 https://player.cdnvideo.ru/stream.m3u8?id=16k47tdh3j74
@@ -116,7 +116,7 @@ http://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8
 http://ice912.echo.msk.ru:9120/stream
 
 #EXTINF:-1 group-title="RADIO" tvg-logo="https://user-images.githubusercontent.com/41078724/42672176-07142a46-866d-11e8-8096-5c0262ce1bed.png" tvg-name="Эхо Москвы" ,Эхо Москвы студия
-https://strm.yandex.ru/kal/echomoscow_supres/echomoscow_supres0_169_360p.json/index-v1-a1.m3u8
+https://strm.yandex.ru/kal/echomoscow_supres/echomoscow_supres0.m3u8
 
 #EXTINF:-1 group-title="RADIO" tvg-logo="https://user-images.githubusercontent.com/41078724/42672176-07142a46-866d-11e8-8096-5c0262ce1bed.png" ,Вести FM студия
 https://a1566399364-s26881.cdn.ngenix.net/vgtrkrtmp/rtmp_vestifm_480/chunklist_b1600000.m3u8
