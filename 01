@@ -48,8 +48,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8?version=2
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8?version=2
 
 
-#EXTINF:-1 group-title="VIDEO" tvg-logo="https://user-images.githubusercontent.com/41078724/42895250-fa75d47a-8ac1-11e8-9b07-5af701c15d2c.png" tvg-name="Суббота" ,Суббота
-https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8?version=2
+#EXTINF:-1 group-title="VIDEO" tvg-logo="ЧЕ" tvg-name="ЧЕ" ,ЧЕ Перец
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8?version=2
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="ТВ3" tvg-name="ТВ-3" ,ТВ-3
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8?version=2
@@ -57,11 +57,11 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8?version=2
 #EXTINF:-1 group-title="VIDEO" tvg-logo="Пятница" tvg-name="Пятница" ,Пятница
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8?version=2
 
+#EXTINF:-1 group-title="VIDEO" tvg-logo="https://user-images.githubusercontent.com/41078724/42895250-fa75d47a-8ac1-11e8-9b07-5af701c15d2c.png" tvg-name="Суббота" ,Суббота
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8?version=2
+
 #EXTINF:-1 group-title="VIDEO" tvg-logo="Домашний" tvg-name="Домашний" ,Домашний
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="VIDEO" tvg-logo="ЧЕ" tvg-name="ЧЕ" ,ЧЕ Перец
-https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8?version=2
 
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="Матч!" tvg-name="Матч!" ,Матч!
