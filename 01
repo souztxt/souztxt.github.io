@@ -118,14 +118,14 @@ http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
 #EXTINF:-1 group-title="RADIO" tvg-logo="https://user-images.githubusercontent.com/41078724/42672156-ee3addee-866c-11e8-8c9f-3acf45a616ff.png" ,Антимайдан
 http://hls.goodgame.ru/hls/6147.m3u8
 
-#EXTINF:-1 group-title="VIDEO" tvg-logo="https://user-images.githubusercontent.com/41078724/42672172-01c14f7e-866d-11e8-9e2b-3aaf60f14c14.png" ,AKUDJI TV
-http://hls.goodgame.ru/hls/5346.m3u8
-
 #EXTINF:-1 group-title="RADIO" tvg-logo="https://user-images.githubusercontent.com/41078724/42672156-ee3addee-866c-11e8-8c9f-3acf45a616ff.png" ,Дядя Ваня
 http://hls.goodgame.ru/hls/54105.m3u8
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="https://user-images.githubusercontent.com/41078724/42672156-ee3addee-866c-11e8-8c9f-3acf45a616ff.png" ,Мохи
 http://hls.goodgame.ru/hls/32491.m3u8
+
+#EXTINF:-1 group-title="VIDEO" tvg-logo="https://user-images.githubusercontent.com/41078724/42672172-01c14f7e-866d-11e8-9e2b-3aaf60f14c14.png" ,AKUDJI TV
+http://hls.goodgame.ru/hls/5346.m3u8
 
 
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannel1346062226859.gif" tvg-name="Волга" ,Волга ТВ Н.Новгород
