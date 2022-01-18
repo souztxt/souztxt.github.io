@@ -20,7 +20,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8?version=2
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8?version=2
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="РТР Планета" tvg-name="РТР-Планета Азия" tvg-shift=0 ,РТР Планета
-http://cdnmg.hls.live.rtr-vesti.ru/live/smil:rtrp.smil/chunklist_b1600000.m3u8
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="TELE" tvg-logo="Россия 24" tvg-name="Россия 24" ,Россия 24
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=2
@@ -71,7 +71,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=2
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8?version=2
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="https://iptvx.one/icn/krasnaya-linia.png" tvg-name="Красная линия" ,Красная линия
-https://strm.yandex.ru/kal/rline/rline0.m3u8
+https://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/playlist.m3u8
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="https://iptvx.one/icn/sovkino.png" tvg-name="Советское кино" ,Советское кино
 https://strm.yandex.ru/kal/sovkino_supres/sovkino_supres0.m3u8
@@ -84,7 +84,7 @@ https://strm.yandex.ru/kal/sovsec_supres/sovsec_supres0.m3u8
 https://strm.yandex.ru/kal/euronews_supres/euronews_supres0.m3u8
 
 #EXTINF:-1 group-title="TELE" tvg-logo="РБК" tvg-name="РБК" ,РБК
-https://strm.yandex.ru/kal/rbc_supres/rbc_supres0.m3u8
+http://online.video.rbc.ru/online/rbctv.m3u8
 
 #EXTINF:-1 group-title="TELE" tvg-logo="Дождь" tvg-name="Дождь" ,Дождь
 https://strm.yandex.ru/kal/tvrain2/tvrain20.m3u8
