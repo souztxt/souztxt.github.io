@@ -164,7 +164,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw10000000/variant.m3u8
 https://plmgr-moretv.cdnvideo.ru/1tvstream/playlist.m3u8
 
 #EXTINF:-1 group-title="TELE" tvg-logo="Россия 1" tvg-name="Россия 1" ,Россия 1 HD
-http://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rhd.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="TELE" tvg-logo="https://iptvx.one/icn/izvestia.png" tvg-name="Известия" ,Известия HD
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
