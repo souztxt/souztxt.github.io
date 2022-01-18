@@ -131,11 +131,11 @@ http://hls.goodgame.ru/hls/5346.m3u8
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannel1346062226859.gif" tvg-name="Волга" ,Волга ТВ Н.Новгород
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_VOLGA/variant.m3u8?version=2
 
+#EXTINF:-1 group-title="REGIONAL" tvg-logo="http://fe-vlg.svc.iptv.rt.ru/images/broadcastChannel1346062226859.gif" tvg-name="Волга 24" ,Волга 24 Н.Новгород
+https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R04_VREMYAN/variant.m3u8?version=2
+
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="https://iptvx.one/icn/nntv.png" tvg-name="ННТВ" ,ННТВ Н.Новгород
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_OTT_VLG_NN_NNTV/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="REGIONAL" tvg-logo="https://user-images.githubusercontent.com/41078724/107289775-94cbc700-6a76-11eb-9b29-4fda5f71aaa1.jpg" tvg-name="Время Н" ,Время Н.Новгород
-https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R04_VREMYAN/variant.m3u8?version=2
 
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="https://iptvx.one/icn/nn-24.png" tvg-name="Н.Новгород 24" ,Н.Новгород 24
 https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
