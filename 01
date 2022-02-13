@@ -145,16 +145,16 @@ https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8?versi
 
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="https://iptvx.one/icn/ultra-hd-cinema.png" tvg-name="Ultra HD Cinema" ,Ultra HD Cinema
-https://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw10000000/variant.m3u8?version=2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/bw10000000/variant.m3u8?version=2
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="https://iptvx.one/icn/russian-extreme-uhd.png" tvg-name="Russian Extreme Ultra HD" ,Russian Extreme Ultra HD
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw10000000/variant.m3u8?version=2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/bw10000000/variant.m3u8?version=2
 
 #EXTINF:-1 group-title="DOCUMENT" tvg-logo="Eurosport" tvg-name="Eurosport 4K" ,Eurosport 4K
-https://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw10000000/variant.m3u8?version=2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K/bw10000000/variant.m3u8?version=2
 
 #EXTINF:-1 group-title="DOCUMENT" tvg-logo="https://iptvx.one/icn/love-nature-4k.png" tvg-name="Love Nature 4K" ,Love Nature 4K
-https://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw10000000/variant.m3u8?version=2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K/bw10000000/variant.m3u8?version=2
 
 #EXTINF:-1 group-title="DOCUMENT" tvg-logo="https://iptvx.one/icn/nasha-sibir.png" tvg-name="Наша Сибирь 4K" ,Наша Сибирь 4K
 https://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw10000000/variant.m3u8?version=2
@@ -190,3 +190,6 @@ https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2f
 
 #EXTINF:-1 group-title="TELE" tvg-logo="РЕН ТВ" tvg-name="РЕН ТВ" ,Рен ТВ HD
 https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
+
+#EXTINF:-1 group-title="TELE" tvg-logo="СТС" tvg-name="СТС" ,СТС HD
+http://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
