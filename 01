@@ -164,10 +164,10 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw10000000/variant.m3u8
 https://plmgr-moretv.cdnvideo.ru/1tvstream/playlist.m3u8
 
 #EXTINF:-1 group-title="TELE" tvg-logo="Россия 1" tvg-name="Россия 1" ,Россия 1 HD
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rhd.smil/playlist.m3u8
+http://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
 
-#EXTINF:-1 group-title="TELE" tvg-logo="https://iptvx.one/icn/izvestia.png" tvg-name="Известия" ,Известия HD
-http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+#EXTINF:-1 group-title="TELE" tvg-logo="НТВ" tvg-name="НТВ" ,НТВ HD
+http://ntv-hls-orig.cdnvideo.ru/ntv0_hd/index.m3u8
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="ТНТ" tvg-name="ТНТ" ,ТНТ HD
 https://bl.uma.media/live/410338/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013807/79ad96b5b87fdce129191b83aaf2fb46/playlist.m3u8
@@ -176,8 +176,11 @@ https://bl.uma.media/live/410338/HLS/6307840_7,4280320_6,2703360_5,1408000_4,107
 https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
 
 
-#EXTINF:-1 group-title="VIDEO" tvg-logo="Звезда" tvg-name="Звезда" ,Звезда HD
-https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+#EXTINF:-1 group-title="TELE" tvg-logo="РЕН" tvg-name="Рен ТВ" ,РенТВ HD
+https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
+
+#EXTINF:-1 group-title="TELE" tvg-logo="СТС" tvg-name="СТС" ,СТС HD
+http://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
 
 #EXTINF:-1 group-title="VIDEO" tvg-logo="ТВ3" tvg-name="ТВ-3" ,ТВ-3 HD
 https://bl.uma.media/live/407373/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013859/5fdc4b8080160a4e56933b0402133da4/playlist.m3u8
@@ -188,8 +191,12 @@ https://bl.uma.media/live/410336/HLS_R/6307840_7,4280320_6,2703360_5,1408000_4,1
 #EXTINF:-1 group-title="VIDEO" tvg-logo="https://user-images.githubusercontent.com/41078724/42895250-fa75d47a-8ac1-11e8-9b07-5af701c15d2c.png" tvg-name="Суббота" ,Суббота HD
 https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
 
-#EXTINF:-1 group-title="TELE" tvg-logo="РЕН ТВ" tvg-name="РЕН ТВ" ,Рен ТВ HD
-https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
 
-#EXTINF:-1 group-title="TELE" tvg-logo="СТС" tvg-name="СТС" ,СТС HD
-http://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
+#EXTINF:-1 group-title="VIDEO" tvg-logo="Домашний" tvg-name="Домашний" ,Домашний HD
+https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
+
+#EXTINF:-1 group-title="VIDEO" tvg-logo="Звезда" tvg-name="Звезда" ,Звезда HD
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+
+#EXTINF:-1 group-title="TELE" tvg-logo="https://iptvx.one/icn/izvestia.png" tvg-name="Известия" ,Известия HD
+http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
