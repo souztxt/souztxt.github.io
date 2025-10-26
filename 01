@@ -87,7 +87,7 @@ https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8?versi
 https://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8?version=2
 
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="https://user-images.githubusercontent.com/41078724/42674048-e44b5408-8676-11e8-8614-16513639bea2.png" ,Астрахань Сейчас
-https://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v1/index.fmp4.m3u8
+http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v1/index.fmp4.m3u8
 
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="https://user-images.githubusercontent.com/41078724/42674048-e44b5408-8676-11e8-8614-16513639bea2.png" ,Петр I Астрахань
 https://dvr2.astrakhan.ru/cam7hd/tracks-v1/mono.m3u8
