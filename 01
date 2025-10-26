@@ -29,9 +29,6 @@ https://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8?version=2
 
 
-#EXTINF:-1 group-title="TELE" tvg-logo="https://iptvx.one/icn/sankt-peterburg.png" tvg-name="Санкт-Петербург" ,Санкт-Петербург
-https://player.smotrim.ru/iframe/stream/live_id/62037
-
 #EXTINF:-1 group-title="TELE" tvg-logo="Пятый канал" tvg-name="Пятый канал" ,Пятый канал
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8?version=2
 
