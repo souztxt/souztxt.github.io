@@ -76,9 +76,6 @@ https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_OTT_VLG_NN_NNTV/variant.m3u8?
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="https://iptvx.one/icn/nn-24.png" tvg-name="Н.Новгород 24" ,Н.Новгород 24
 https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 
-#EXTINF:-1 group-title="REGIONAL" tvg-logo="https://iptvx.one/icn/dzenzhinsk-tv.png" tvg-name="Дзержинск ТВ" ,Дзержинск ТВ
-https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8?version=2
-
 
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="https://iptvx.one/icn/astraxan24.png" tvg-name="Астрахань 24" ,Астрахань 24
 https://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8?version=2
