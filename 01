@@ -73,8 +73,8 @@ https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R04_VREMYAN/variant.m3u8?version=
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="https://iptvx.one/icn/nntv.png" tvg-name="ННТВ" ,ННТВ Н.Новгород
 https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_OTT_VLG_NN_NNTV/variant.m3u8?version=2
 
-#EXTINF:-1 group-title="REGIONAL" tvg-logo="https://iptvx.one/icn/nn-24.png" tvg-name="Н.Новгород 24" ,Н.Новгород 24
-https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
+#EXTINF:-1 group-title="REGIONAL" tvg-logo="https://iptvx.one/icn/dzenzhinsk-tv.png" tvg-name="Дзержинск ТВ" ,Дзержинск ТВ
+https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8?version=2
 
 
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="https://user-images.githubusercontent.com/41078724/42674048-e44b5408-8676-11e8-8614-16513639bea2.png" ,Астрахань Сейчас
