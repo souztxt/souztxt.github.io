@@ -77,9 +77,6 @@ https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_OTT_VLG_NN_NNTV/variant.m3u8?
 https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 
 
-#EXTINF:-1 group-title="REGIONAL" tvg-logo="https://iptvx.one/icn/astraxan24.png" tvg-name="Астрахань 24" ,Астрахань 24
-https://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8?version=2
-
 #EXTINF:-1 group-title="REGIONAL" tvg-logo="https://user-images.githubusercontent.com/41078724/42674048-e44b5408-8676-11e8-8614-16513639bea2.png" ,Астрахань Сейчас
 https://streaming.astrakhan.ru/astrakhanrulivehd/index.m3u8
 
